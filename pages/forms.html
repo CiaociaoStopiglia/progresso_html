@@ -1,32 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/assets/styles/forms.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/assets/styles/forms.css" />
+  </head>
+  <body>
     <h1>Missão Formulário</h1>
 
     <section>
-        <form action="#">
-            <div class="inputs">
-                <label for="nome">Digite o nome do ninja!</label>
-                <input type="text" placeholder="Nome..." required/>
-            </div>
+      <form action="#">
+        <div class="inputs">
+          <label for="nome">Digite o nome do ninja!</label>
+          <input type="text" placeholder="Nome..." required />
+        </div>
 
-            <div class="rank">
-                <label for="rank">Selecione o nível do ninja</label>
-                <select name="rank" id="rank">
-                    <option value="">Selecione...</option>
-                    <option value="Genin">Genin</option>
-                    <option value="Chunin">Chunin</option>
-                    <option value="Jonin">Jonin</option>
-                    <option value="Kage">Kage</option>
-                </select>
-            </div>
-        </form>
+        <div class="rank">
+          <label for="rank">Selecione o nível do ninja</label>
+          <select name="rank" id="rank">
+            <option value="">Selecione...</option>
+            <option value="Genin">Genin</option>
+            <option value="Chunin">Chunin</option>
+            <option value="Jonin">Jonin</option>
+            <option value="Kage">Kage</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="tipo">Escolha o tipo da missão...</label>
+          <div>
+            <label for="d">
+              <input type="radio" name="d" value="d" />
+              D
+            </label>
+          </div>
+
+          <div>
+            <label for="c">
+              <input type="radio" name="d" value="d" />
+              C
+            </label>
+          </div>
+
+          <div>
+            <label for="b">
+              <input type="radio" name="d" value="d" />
+              B
+            </label>
+          </div>
+
+          <div>
+            <label for="a">
+              <input type="radio" name="d" value="d" />
+              A
+            </label>
+          </div>
+
+          <div>
+            <label for="s">
+              <input type="radio" name="d" value="d" />
+              S
+            </label>
+          </div>
+        </div>
+      </form>
     </section>
-</body>
+  </body>
 </html>
